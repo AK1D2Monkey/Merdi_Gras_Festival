@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 400px;
+  height: 850px;
+}
+body {
+  background-color: black;
+}
+.card {
+  height: 265px;
+  width: 15rem;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #0cbf3f;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+}
+.col-6 {
+  width: 25%;
+}
+.size {
+  width: 200px;
+  height: auto;
+}
+.size_logo {
+  width: 150px;
+  height: 100px;
+}
+.NavColor {
+  background-color: rgb(192 180 180 / 85%);
+}
+@media (max-width: 950px) {
+  .card {
+    width: 15rem;
+  }
+}
+@media (max-width: 820px) {
+  .card {
+    width: 10rem;
+    margin: 5px;
+    padding: 5px;
+    left: -45px;
+    height: 310px;
+  }
+  .size_logo {
+    width: 100px;
+    height: 70px;
+  }
+}
+@media (max-width: 720px) {
+  .size_logo {
+    width: 85px;
+    height: 55px;
+  }
+  .card {
+    width: 6rem;
+    margin: 0px;
+    padding: 0px;
+    left: -10px;
+    height: 275px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+.colorText {
+  color: #f2f2f2;
+}
+.BubleBorder {
+  border: 1px solid white;
+  width: 100%;
+
+  padding: 10px;
+  background-image: url(/pics/slider/pic2.jpg);
+}

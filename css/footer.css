@@ -1,0 +1,28 @@
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: "Pattaya";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  height: 30px;
+  overflow: hidden;
+}
+@media (max-width: 820px) {
+  .footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "Pattaya";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: 30px;
+    overflow: hidden;
+  }
+}

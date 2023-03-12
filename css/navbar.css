@@ -1,0 +1,13 @@
+.container-fluid li a {
+  color: black !important;
+  font-weight: 600;
+}
+.container-fluid li {
+  transition: 0.2s;
+}
+.container-fluid li:hover {
+  background-color: #c0b4b4a4;
+}
+.navbar {
+  backdrop-filter: blur(2px);
+}
